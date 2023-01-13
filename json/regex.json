@@ -1,0 +1,30 @@
+[
+    {
+        "pattern": "(?i)(?P<head>.*)din\\s*(?P<din>\\d+)(?P<tail>.*)",
+        "attr_captured": "din",
+        "tags": [
+            "din"
+        ]
+    },
+    {
+        "pattern": "(?i)(?P<head>.*)гост\\s*р?\\s*(?P<gost>[0-9.Ц-]+)(?P<tail>.*)",
+        "attr_captured": "gost",
+        "tags": [
+            "гост"
+        ]
+    },
+    {
+        "pattern": "(?i)(?P<head>.*)iso\\s*(?P<iso>[0-9:Ц-]+)(?P<tail>.*)",
+        "attr_captured": "iso",
+        "tags": [
+            "iso"
+        ]
+    },
+    {
+        "pattern": "(?i)(?P<head>.*)\\s(артикул|арт\\.?)\\s*(?P<sku>.+)(?P<tail>)",
+        "attr_captured": "sku",
+        "tags": [
+            "артикул издели€"
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "func_name": "get_fastener_plating",
+        "attr_captured": "fastener_plating",
+        "tags": [
+            "материал/покрытие крепежа"
+        ]
+    },
+    {
+        "func_name": "get_fastener_class",
+        "attr_captured": "fastener_class",
+        "tags": [
+            "класс прочности крепежа"
+        ]
+    }
+]
